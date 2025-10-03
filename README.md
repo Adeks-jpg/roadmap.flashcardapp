@@ -12,5 +12,7 @@ A simple and interactive web-based quiz application that helps users test their 
 Clone the repository and open the project in your browser:
 
 ```bash
-git clone https://github.com/your-username/flashcard-quiz-app.git
-cd flashcard-quiz-app
+git clone https://github.com/Adeks-jpg/roadmap.flashcardapp.git
+cd flashcardapp.git
+
+https://roadmap.sh/projects/flash-cards
