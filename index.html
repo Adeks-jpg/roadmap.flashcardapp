@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>JavaScript Flashcards - True/False</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>JavaScript Flashcards (True/False)</h1>
+
+    <!-- Progress Bar -->
+    <div class="progress-container">
+      <div id="progress-bar"></div>
+      <span id="progress-percent">0%</span>
+      <span id="progress-counter">0/20</span>
+    </div>
+
+    <!-- Flashcard -->
+    <div class="flashcard" id="flashcard">
+      <div class="flashcard-inner">
+        <div class="front" id="question">Question will appear here</div>
+        <div class="back" id="answer">Answer will appear here</div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+      <button id="prev">⬅ Previous</button>
+      <button id="next">Next ➡</button>
+    </div>
+
+    <!-- True/False Buttons -->
+    <div class="knowledge-controls">
+      <button id="trueBtn">✅ True</button>
+      <button id="falseBtn">❌ False</button>
+    </div>
+
+    <!-- Summary + True/False selection counters -->
+    <p id="summary">Correct: 0 | Incorrect: 0</p>
+    <div class="selection-counters">
+      <span id="trueCount">True chosen: 0</span>
+      <span id="falseCount" style="margin-left:12px">False chosen: 0</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+
+</body>
+</html>
